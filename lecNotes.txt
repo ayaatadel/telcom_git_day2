@@ -1,2 +1,13 @@
 show all branches
 git branch
+
+create branch 
+git branch navbar
+
+switch to branch
+git switch navbar
+
+
+=============
+master ===> commits==>create branch 
+commits->master-> navbar(parent)
