@@ -61,3 +61,23 @@ back to specific commit
 git reset --soft commitHash ==> delete commit ==> code still in
 git reset --hard commitHash
  delete commit ==> code remove
+
+
+ ===================
+ stash 
+ create stash 
+ git stash save
+ ================
+ list stashes 
+ git stash list 
+ git stash show ==> more detailes
+ ==================
+ show code in stash 
+ git stash pop ==> remove from list
+ git stash apply ===> still in list
+ ==============
+ remove all in stash 
+ git stash clear
+ =============
+ specific stash
+git stash apply stash@{0} (stash index)
