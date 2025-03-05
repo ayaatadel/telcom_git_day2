@@ -17,7 +17,10 @@ merge branches
 1- master ==> merege another branch in master
 git switch master
 git merge navbar
-
+======
+git switch navbar
+git merge master
+======================================
 2- header on another branch then merge master to it==> recommended
 git switch navbar
 git merge master
