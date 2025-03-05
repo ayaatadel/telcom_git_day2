@@ -53,3 +53,11 @@ git pull origin master(any branch)
 conflict ==> solve
 git commit -am ""
 git push origin kareem ==> master(updated)
+
+
+
+========================
+back to specific commit 
+git reset --soft commitHash ==> delete commit ==> code still in
+git reset --hard commitHash
+ delete commit ==> code remove
