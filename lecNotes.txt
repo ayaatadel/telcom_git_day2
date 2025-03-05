@@ -29,7 +29,7 @@ git switch master
 git merge navbar
 
 =============================
-while working ====>
+while working  (alone without remote)====>
 git switch Your Branch
 git status ==>done
 add ===> add , commit
@@ -38,3 +38,18 @@ handle all conflicts
 =====
 git switch master
 get merege your Banch in master
+
+=====================> 
+while working as team (remote)
+git switch branch
+add ==> git add . || git commit -m ""
+git push your branch in remote
+==> kareem
+git switch  kareem
+git status 
+add ==> git add . || git commit -m ""
+git push origin kareem
+git pull origin master(any branch)
+conflict ==> solve
+git commit -am ""
+git push origin kareem ==> master(updated)
