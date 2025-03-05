@@ -5,11 +5,11 @@ p{
     height: 40%;
     padding: 5px;
 }
-.slider{
+#slider{
     display: flex;
     justify-content: space-around;
 }
-.slider img{
+#slider img{
     width: 25%;
     height: 30%;
 }
